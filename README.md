@@ -1,36 +1,39 @@
 # DSA Assignment
 
-Name: Shailja Bajpai
-Student ID: BC2025530
-Subject: Data Structures and Algorithms
-
 ## Q1. Stack Using Array
 
-Implemented Operations:
-- PUSH()
-- POP()
-- PEEK()
-- DISPLAY()
+In this question, I have implemented a stack using an array in C.
+The stack follows the LIFO (Last In First Out) principle.
 
-Additional Requirements:
-- Stack Overflow handling
-- Stack Underflow handling
-- Time Complexity
-- Space Complexity
-- Fixed-size stack capacity handling
+The following operations are performed:
 
-## Q2. Circular Queue Using Array
+- PUSH(x) - Adds an element to the stack.
+- POP() - Removes the top element from the stack.
+- PEEK() - Shows the top element.
+- DISPLAY() - Displays all the elements of the stack.
 
-Implemented Operations:
-- ENQUEUE()
-- DEQUEUE()
-- FRONT()
-- DISPLAY()
+## Overflow and Underflow
 
-Additional Requirements:
-- Full and Empty queue handling
-- Comparison with Linear Queue
-- Memory utilization
-- Time Complexity
-- Space Complexity
-- Problem of unused spaces in Linear Queue
+If the stack is full and we try to add another element, Stack Overflow occurs.
+
+If the stack is empty and we try to remove an element, Stack Underflow occurs.
+
+## Time Complexity
+
+- PUSH: O(1)
+- POP: O(1)
+- PEEK: O(1)
+- DISPLAY: O(n)
+
+## Space Complexity
+
+The space complexity is O(n), as the stack uses an array to store the elements.
+
+## Fixed Size Stack
+
+In this program, the maximum size of the stack is 5.
+If we try to insert more than 5 elements, the program shows Stack Overflow.
+
+## Conclusion
+
+This program helped me understand how a stack works using an array and how PUSH, POP, PEEK and DISPLAY operations are performed.
